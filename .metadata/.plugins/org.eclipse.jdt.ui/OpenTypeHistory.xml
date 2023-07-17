@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-    <typeInfo handle="=restaurante-data/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;dao{EmpleadoDao.java[EmpleadoDao" modifiers="513" timestamp="1683217802024"/>
-    <typeInfo handle="=restaurante-web/C:\/Users\/Green\/.m2\/repository\/com\/sun\/faces\/jsf-api\/2.2.20\/jsf-api-2.2.20.jar=/maven.pomderived=/true=/=/org.eclipse.jst.component.archivename=/jsf-api-2.2.20.jar=/=/maven.groupId=/com.sun.faces=/=/maven.artifactId=/jsf-api=/=/maven.version=/2.2.20=/=/maven.scope=/compile=/=/maven.pomderived=/true=/=/org.eclipse.jst.component.dependency=/\/WEB-INF\/lib=/&lt;javax.faces.convert(Converter.class[Converter" modifiers="1537" timestamp="1683046468600"/>
-    <typeInfo handle="=restaurante-data/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;dao{TipoAlimentoDAO.java[TipoAlimentoDAO" modifiers="513" timestamp="1685473458668"/>
-    <typeInfo handle="=restaurante-entities/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;restauranteentities.entity{CommonEntity.java[CommonEntity" modifiers="1" timestamp="1682958716000"/>
-    <typeInfo handle="=restaurante-data/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;dao{RolDAO.java[RolDAO" modifiers="513" timestamp="1688483649909"/>
-    <typeInfo handle="=restaurante-data/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;dao{SucursalDAO.java[SucursalDAO" modifiers="513" timestamp="1689270509871"/>
-</typeInfoHistroy>
