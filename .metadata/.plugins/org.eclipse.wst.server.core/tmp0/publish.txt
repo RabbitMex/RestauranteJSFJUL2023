@@ -1,5 +1,5 @@
 #Tomcat publish data
-#Thu Jul 13 13:18:13 CST 2023
+#Mon Jul 17 16:22:50 CST 2023
 org.eclipse.jst.j2ee.server\:restaurante-data=WEB-INF/lib/restaurante-data-0.0.1-SNAPSHOT.jar
 org.eclipse.jst.j2ee.server\:restaurante-entities=WEB-INF/lib/restaurante-entities-0.0.1-SNAPSHOT.jar
 org.eclipse.jst.j2ee.server\:restaurante-service=WEB-INF/lib/restaurante-service-0.0.1-SNAPSHOT.jar

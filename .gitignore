@@ -78,3 +78,8 @@ restaurante-web/.classpath
 restaurante-web/.project
 restaurante-web/.settings
 restaurante-web/target
+
+restaurante-data/target
+restaurante-service/src/main/java/restauranteservice/services/AdminSucursalService.java
+restaurante-service/target
+restaurante-web/target

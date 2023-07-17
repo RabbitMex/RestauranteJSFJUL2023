@@ -236,4 +236,27 @@ public class AdminSucursalService {
 	public List<Sucursal> consultarSucursalesPorRestaurante(int idRestauranteUsuarioSesion) throws SQLException{
 		return this.sucursalDAOImpl.consultarPorRestaurante(idRestauranteUsuarioSesion);
 	}
+	
+	/**
+	 * Metodo que permite guardar una sucursal
+	 * @param sucursal objeto a guardar
+	 * @return 1 en caso de guardado, 0 en caso de no guardar
+	 * @throws SQLException excepcion en caso de haber un error al ejecutar la sentencia SQL.
+	 */
+	public int guardarSucursal(Sucursal sucursal) throws SQLException {
+		sucursal.setFechaCreacion(LocalDateTime.now());
+		sucursal.setEstatus(true);
+		return this.sucursalDAOImpl.guardar(sucursal);
+	}
+	
+	/**
+	 * Metodo para poder actualizar el la tabla sucursal el objeto sucursal
+	 * @param sucursal objeto para actualizar en la base de datos
+	 * @return 1 si se guardo correctamente, 0 si no se guardo
+	 * @throws SQLException excepcion si hay un error en la sentencia SQL.
+	 */
+	public int actualizarSucursal(Sucursal sucursal) throws SQLException {
+		sucursal.setFechaModificacion(LocalDateTime.now());
+		return this.sucursalDAOImpl.actualizar(sucursal);
+	}
 }

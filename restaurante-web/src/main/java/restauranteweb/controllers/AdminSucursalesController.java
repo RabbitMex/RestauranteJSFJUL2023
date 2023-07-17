@@ -13,6 +13,7 @@ import javax.faces.bean.ManagedProperty;
 import javax.faces.bean.ViewScoped;
 
 import restauranteentities.entity.Sucursal;
+import restauranteentities.entity.Restaurante;
 import restauranteweb.session.SessionBean;
 import restauranteweb.utils.ControllersUtil;
 import restauranteservice.services.AdminSucursalService;
@@ -29,7 +30,9 @@ public class AdminSucursalesController {
 	/**
 	 * Lista de sucursales a mostrar en al pagina
 	 */
-	private List<Sucursal> sucursales;	
+	private List<Sucursal> sucursales;
+	private Sucursal sucursal;
+	
 	/**
 	 * Objeto que contiene la informacion de sesion del usuario
 	 */
@@ -47,6 +50,15 @@ public class AdminSucursalesController {
 	@PostConstruct
 	public void init() {
 		this.consultar();
+		this.inicializarComponentes();
+	}
+	
+	/**
+	 * Permite inicializar los componetnes de la pantalla de sucursales.
+	 */
+	public void inicializarComponentes() {
+		this.sucursal = new Sucursal();
+		this.sucursal.setRestaurante(new Restaurante());
 	}
 	
 	/**
@@ -59,6 +71,52 @@ public class AdminSucursalesController {
 			this.sucursales = this.adminSucursalService.consultarSucursalesPorRestaurante(idRestauranteUsuarioSesion);
 		} catch (SQLException e) {
 			ControllersUtil.mostrarMensaje(FacesMessage.SEVERITY_FATAL, "Error SQL", "Error al consultar la lista de sucursales");
+			e.printStackTrace();
+		}
+	}
+	
+	/**
+	 * Metodo que permite guardar la sucursal
+	 */
+	public void guardar() {
+		//Obtener el restaurante en sesion.
+		Restaurante restaurante = this.sessionBean.getEmpleado().getSucursal().getRestaurante();
+		this.sucursal.setRestaurante(restaurante);
+		try {
+			int resultado = this.adminSucursalService.guardarSucursal(this.sucursal);
+			if(resultado>0) {
+				ControllersUtil.mostrarMensaje(FacesMessage.SEVERITY_INFO, "OK: ", "Se Guardo la sucursal: " + this.sucursal.getNombre());
+				this.consultar();
+			}
+			else {
+				ControllersUtil.mostrarMensaje(FacesMessage.SEVERITY_ERROR, "Error: ", "No se guardo la sucursal");
+			}
+		} catch (SQLException e) {
+			ControllersUtil.mostrarMensaje(FacesMessage.SEVERITY_FATAL, "Error SQL", "Error al guardar la sucursal");
+			e.printStackTrace();
+		}
+	}
+	
+	public void cargarInformacionModal(Sucursal sucursal) {
+		this.sucursal = sucursal;
+	}
+	
+	/**
+	 * Metodo para poder actualizar un registro en la tabla sucursal.
+	 */
+	public void actualizar() {
+		//System.out.println("Actualizar informacion de la sucursal");
+		try {
+			int resultado = this.adminSucursalService.actualizarSucursal(this.sucursal);
+			if(resultado>0) {
+				ControllersUtil.mostrarMensaje(FacesMessage.SEVERITY_INFO, "OK: ", "Se actualizo la sucursal: " + this.sucursal.getNombre());
+				this.consultar();
+			}
+			else{
+				ControllersUtil.mostrarMensaje(FacesMessage.SEVERITY_ERROR, "Error: ", "No se actualizo la sucursal");
+			}
+		} catch (SQLException e) {
+			ControllersUtil.mostrarMensaje(FacesMessage.SEVERITY_FATAL, "Error SQL: ", "Error al actualizar la sucursal");
 			e.printStackTrace();
 		}
 	}
@@ -89,5 +147,18 @@ public class AdminSucursalesController {
 	 */
 	public void setSessionBean(SessionBean sessionBean) {
 		this.sessionBean = sessionBean;
+	}
+	/**
+	 * @return the sucursal
+	 */
+	public Sucursal getSucursal() {
+		return sucursal;
+	}
+
+	/**
+	 * @param sucursal the sucursal to set
+	 */
+	public void setSucursal(Sucursal sucursal) {
+		this.sucursal = sucursal;
 	}
 }

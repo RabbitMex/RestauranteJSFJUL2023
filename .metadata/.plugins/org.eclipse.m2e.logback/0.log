@@ -12181,3 +12181,77 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.gu
 2023-07-14 13:47:48,144 [Worker-10: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/restaurante-data: com.daniel:restaurante-data:0.0.1-SNAPSHOT with classifier  to /restaurante-data/target/classes
 2023-07-14 13:47:48,144 [Worker-10: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/restaurante-entities: com.daniel:restaurante-entities:0.0.1-SNAPSHOT with classifier  to /restaurante-entities/target/classes
 2023-07-17 08:30:23,571 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2023-07-17 15:53:46,310 [Worker-10: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/restaurante-service: com.daniel:restaurante-service:0.0.1-SNAPSHOT with classifier  to /restaurante-service/target/classes
+2023-07-17 15:53:46,527 [Worker-10: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/restaurante-data: com.daniel:restaurante-data:0.0.1-SNAPSHOT with classifier  to /restaurante-data/target/classes
+2023-07-17 15:53:46,527 [Worker-10: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/restaurante-entities: com.daniel:restaurante-entities:0.0.1-SNAPSHOT with classifier  to /restaurante-entities/target/classes
+2023-07-17 15:53:48,806 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 15:53:48,806 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\main\resources
+2023-07-17 15:53:48,810 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 15:53:48,810 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\test\resources
+2023-07-17 15:54:54,497 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 15:54:54,498 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\main\resources
+2023-07-17 15:54:54,502 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 15:54:54,502 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\test\resources
+2023-07-17 15:59:15,710 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 15:59:15,710 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\main\resources
+2023-07-17 15:59:15,713 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 15:59:15,713 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\test\resources
+2023-07-17 16:03:09,479 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:03:09,480 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\main\resources
+2023-07-17 16:03:09,482 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:03:09,482 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\test\resources
+2023-07-17 16:03:32,878 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:03:32,878 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\main\resources
+2023-07-17 16:03:32,880 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:03:32,880 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\test\resources
+2023-07-17 16:04:13,987 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:04:13,987 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\main\resources
+2023-07-17 16:04:13,991 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:04:13,991 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\test\resources
+2023-07-17 16:04:37,237 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:04:37,238 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\main\resources
+2023-07-17 16:04:37,241 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:04:37,241 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\test\resources
+2023-07-17 16:06:32,228 [Worker-20: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/restaurante-data: com.daniel:restaurante-data:0.0.1-SNAPSHOT with classifier  to /restaurante-data/target/classes
+2023-07-17 16:06:32,229 [Worker-20: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/restaurante-entities: com.daniel:restaurante-entities:0.0.1-SNAPSHOT with classifier  to /restaurante-entities/target/classes
+2023-07-17 16:06:32,605 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:06:32,605 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-service\src\main\resources
+2023-07-17 16:06:32,610 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:06:32,610 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-service\src\test\resources
+2023-07-17 16:06:33,883 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:06:33,883 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\main\resources
+2023-07-17 16:06:33,886 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:06:33,886 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\test\resources
+2023-07-17 16:06:52,887 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:06:52,887 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\main\resources
+2023-07-17 16:06:52,889 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:06:52,889 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\test\resources
+2023-07-17 16:07:14,400 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:07:14,401 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\main\resources
+2023-07-17 16:07:14,403 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:07:14,403 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\test\resources
+2023-07-17 16:08:34,332 [Worker-24: Building] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/restaurante-entities: com.daniel:restaurante-entities:0.0.1-SNAPSHOT with classifier  to /restaurante-entities/target/classes
+2023-07-17 16:08:36,061 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:08:36,061 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-data\src\main\resources
+2023-07-17 16:08:36,064 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:08:36,065 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-data\src\test\resources
+2023-07-17 16:08:53,781 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:08:53,781 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-service\src\main\resources
+2023-07-17 16:08:53,784 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:08:53,785 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-service\src\test\resources
+2023-07-17 16:10:10,571 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:10:10,571 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\main\resources
+2023-07-17 16:10:10,573 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:10:10,574 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\test\resources
+2023-07-17 16:18:34,891 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:18:34,892 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-data\src\main\resources
+2023-07-17 16:18:34,894 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:18:34,894 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-data\src\test\resources
+2023-07-17 16:21:51,142 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:21:51,143 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\main\resources
+2023-07-17 16:21:51,147 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:21:51,147 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-web\src\test\resources
+2023-07-17 16:22:49,203 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:22:49,203 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-data\src\main\resources
+2023-07-17 16:22:49,205 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-17 16:22:49,206 [Worker-22: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Green\Desktop\Seccion11\restaurante-data\src\test\resources

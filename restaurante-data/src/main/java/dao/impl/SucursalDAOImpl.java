@@ -26,14 +26,22 @@ public class SucursalDAOImpl implements SucursalDAO {
 
 	@Override
 	public int guardar(Sucursal sucursal) throws SQLException {
-		// TODO Auto-generated method stub
-		return 0;
+		String sql = "INSERT INTO sucursal(nombre, idRestaurante, fechaCreacion, estatus) VALUES('" 
+	+ sucursal.getNombre() + "', " + sucursal.getRestaurante().getIdRestaurante() 
+	+ ", '" + sucursal.getFechaCreacion() + "', " 
+	+ sucursal.isEstatus() + ");";
+		int resultado = ConnectionFactory.ejecutarSQL(sql); 
+		return resultado;
 	}
 
 	@Override
 	public int actualizar(Sucursal sucursal) throws SQLException {
-		// TODO Auto-generated method stub
-		return 0;
+		String sql = "UPDATE sucursal SET nombre='" + sucursal.getNombre() 
+		+ "', fechaModificacion='" + sucursal.getFechaModificacion() 
+		+ "', estatus=" + sucursal.isEstatus() 
+		+ " WHERE idSucursal=" + sucursal.getIdSucursal() + ";";
+		int resultado = ConnectionFactory.ejecutarSQL(sql);
+		return resultado;
 	}
 
 	@Override
