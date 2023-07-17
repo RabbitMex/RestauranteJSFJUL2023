@@ -50,3 +50,31 @@ m4/lt~obsolete.m4
 # can automatically generate from config.status script
 # (which is called by configure script))
 Makefile
+
+.metadata
+Servers
+Servers2
+estructura-web/.classpath
+estructura-web/.project
+estructura-web/.settings
+estructura-web/target
+
+restaurante-data/.classpath
+restaurante-data/.project
+restaurante-data/.settings
+restaurante-data/target
+
+restaurante-entities/.classpath
+restaurante-entities/.project
+restaurante-entities/.settings
+restaurante-entities/target
+
+restaurante-service/.classpath
+restaurante-service/.project
+restaurante-service/.settings
+restaurante-service/target
+
+restaurante-web/.classpath
+restaurante-web/.project
+restaurante-web/.settings
+restaurante-web/target

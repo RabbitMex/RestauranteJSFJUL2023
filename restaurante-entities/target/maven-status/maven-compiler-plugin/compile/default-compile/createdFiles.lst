@@ -1,0 +1,8 @@
+com\daniel\restaurante_entities\App.class
+restauranteentities\entity\Menu.class
+restauranteentities\entity\TipoRestaurante.class
+restauranteentities\entity\CommonEntity.class
+restauranteentities\entity\Sucursal.class
+restauranteentities\entity\Empleado.class
+restauranteentities\entity\Restaurante.class
+restauranteentities\entity\Rol.class

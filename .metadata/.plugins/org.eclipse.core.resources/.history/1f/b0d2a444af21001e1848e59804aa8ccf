@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package restauranteweb.controllers;
+
+import java.util.List;
+
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.ManagedProperty;
+import javax.faces.bean.ViewScoped;
+
+import restauranteentities.entity.Sucursal;
+import restauranteweb.session.SessionBean;
+
+/**
+ * @author Daniel Bastian Luna
+ * 
+ * Clase controles que permite la comunicacion con la pantalla adminsucursales
+ * 
+ */
+@ManagedBean
+@ViewScoped
+public class AdminSucursalesController {
+	private List<Sucursal> sucursales;
+	@ManagedProperty("#{sessionBean}")
+	private SessionBean sessionBean;
+}

@@ -1,0 +1,15 @@
+127.0.0.1 - - [05/May/2023:17:23:46 -0600] "GET / HTTP/1.1" 404 687
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:23:47 -0600] "GET /restaurante-web/ HTTP/1.1" 404 707
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:23:48 -0600] "GET /favicon.ico HTTP/1.1" 404 698
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:24:40 -0600] "GET /restaurante-web/login.xhtml HTTP/1.1" 200 6908
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:24:41 -0600] "GET /restaurante-web/javax.faces.resource/css/default/core.css.xhtml;jsessionid=741FDA5821FC0CCAA2137DEE995C7EE5?ln=bsf HTTP/1.1" 200 136471
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:24:41 -0600] "GET /restaurante-web/javax.faces.resource/js/image-loader.js.xhtml;jsessionid=741FDA5821FC0CCAA2137DEE995C7EE5?ln=bsf HTTP/1.1" 200 1171
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:24:41 -0600] "GET /restaurante-web/javax.faces.resource/jq/jquery.js.xhtml;jsessionid=741FDA5821FC0CCAA2137DEE995C7EE5?ln=bsf HTTP/1.1" 200 89568
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:24:41 -0600] "GET /restaurante-web/javax.faces.resource/js/tooltip.js.xhtml;jsessionid=741FDA5821FC0CCAA2137DEE995C7EE5?ln=bsf HTTP/1.1" 200 15384
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:24:41 -0600] "GET /restaurante-web/javax.faces.resource/css/bsf.css.xhtml;jsessionid=741FDA5821FC0CCAA2137DEE995C7EE5?ln=bsf HTTP/1.1" 200 10408
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:24:41 -0600] "GET /restaurante-web/javax.faces.resource/jsf.js.xhtml;jsessionid=741FDA5821FC0CCAA2137DEE995C7EE5?ln=javax.faces&stage=Development HTTP/1.1" 200 152475
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:24:41 -0600] "GET /restaurante-web/javax.faces.resource/js/bsf.js.xhtml;jsessionid=741FDA5821FC0CCAA2137DEE995C7EE5?ln=bsf HTTP/1.1" 200 5251
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:24:41 -0600] "GET /restaurante-web/javax.faces.resource/js/collapse.js.xhtml;jsessionid=741FDA5821FC0CCAA2137DEE995C7EE5?ln=bsf HTTP/1.1" 200 4764
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:24:41 -0600] "GET /restaurante-web/resources/images/login/loginrestaurante.jpg;jsessionid=741FDA5821FC0CCAA2137DEE995C7EE5 HTTP/1.1" 200 80080
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:24:41 -0600] "GET /restaurante-web/javax.faces.resource/fonts/glyphicons-halflings-regular.woff2.xhtml HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [05/May/2023:17:24:49 -0600] "POST /restaurante-web/login.xhtml;jsessionid=741FDA5821FC0CCAA2137DEE995C7EE5 HTTP/1.1" 200 220

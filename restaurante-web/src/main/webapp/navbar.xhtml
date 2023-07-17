@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:b="http://bootsfaces.net/ui">
+
+	<b:container>
+		<h:form id="formNavbar">
+			<b:navBar brandImg="./resources/images/login/loginrestaurante.jpg"
+				brand-img-style="width:50px" brandHref="#" inverse="true"
+				fluid="true">
+				<b:navbarLinks>
+					<b:navLink value="Restaurantes" href="adminrestaurantes.xhtml" rendered="#{sessionBean.empleado.superadmingeneral}"></b:navLink>
+					<b:navLink value="Tipo de Restaurantes" href="admintiporestaurantes.xhtml" rendered="#{sessionBean.empleado.superadmingeneral}"></b:navLink>
+					<b:navLink value="Pefiles" href="#" rendered="#{sessionBean.empleado.superadmingeneral}"></b:navLink>
+					
+					<!-- Menu para Administrador de sucursal -->
+					<b:navLink value="Menu" href="adminmenu.xhtml" rendered="#{sessionBean.empleado.superadmin}"></b:navLink>
+					<b:navLink value="Sucursales" href="adminsucursales.xhtml" rendered="#{sessionBean.empleado.superadmin}"></b:navLink>
+					<b:navLink value= "Tipos de alimentos" href="admintiposalimentos.xhtml" rendered="#{sessionBean.empleado.superadmin}"></b:navLink>
+					<b:navLink value="Alimentos" href="adminalimentos.xhtml" rendered="#{sessionBean.empleado.superadmin}"></b:navLink>
+					<b:navLink value="Empleados" href="adminempleados.xhtml" rendered="#{sessionBean.empleado.superadmin}"></b:navLink>
+					
+					<!-- Menu empleado de sucursal -->
+					<b:navLink value="Menu" href="menuempleado.jsf" rendered="#{sessionBean.empleado.rol.idRol==3}"></b:navLink>
+					
+					<!-- Comun en todas las paginas -->
+					<b:navLink value="Cerrar Sesión" onclick="ajax:sessionClosedBean.cerrarSesion()" ajax="true"></b:navLink>
+				</b:navbarLinks>
+			</b:navBar>
+		</h:form>
+	</b:container>
+	
+	<b:container>
+		<b:row>
+			<b:column>
+				<b:well>
+					<b:row>
+					<b:column medium-screen="2" style="text-align:center">
+						<b:image value="resources/images/login/loginrestaurante.jpg" style="width:60%"></b:image>
+					</b:column>
+					
+					<b:column medium-screen="10" >
+						<h:outputText clas="text-justify" value="Bienvenido: #{sessionBean.empleado.nombre}"></h:outputText><br></br>
+						<h:outputText clas="text-justify" value="PerfilL: #{sessionBean.empleado.rol.nombre}"></h:outputText><br></br>
+						<h:outputText clas="text-justify" value="Sucursa nombrel: #{sessionBean.empleado.sucursal.nombre}"></h:outputText><br></br>
+						<h:outputText clas="text-justify" value="Sucursal idSucursal: #{sessionBean.empleado.sucursal.idSucursal}"></h:outputText><br></br>
+						<h:outputText clas="text-justify" value="Sucursal restaurante nombre: #{sessionBean.empleado.sucursal.restaurante.nombre}"></h:outputText><br></br>
+						<h:outputText clas="text-justify" value="Sucursal restaurante idRestaurante: #{sessionBean.empleado.sucursal.restaurante.idRestaurante}"></h:outputText>
+					</b:column>
+					</b:row>
+	    		</b:well>
+			</b:column>
+		</b:row>
+	</b:container>
+
+</ui:composition>

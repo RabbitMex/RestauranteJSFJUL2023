@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package restauranteweb.controllers;
+
+/**
+ * @author Daniel Bastian Luna
+ *
+ */
+public class AdminSucursalesController {
+
+}

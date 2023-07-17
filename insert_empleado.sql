@@ -1,0 +1,1 @@
+INSERT INTO empleado(nombre, primerApellido, segundoApellido, idRol, usuario, password, email, superadmin, superadmingeneral, fechaCreacion, estatus) VALUES('Diego', 'Paniagua', 'Lopez', 1, 'diego', 123, 'diego.paniagua.kanon89@gmail.com', 0, 1, '2023-05-04 10:03:00', 1);
